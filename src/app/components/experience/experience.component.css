@@ -1,0 +1,92 @@
+.exp-container {
+  width: 720px;
+  margin: 0 auto 0;
+}
+
+h2 {
+  color: #ffffff;
+  padding: 100px;
+  font-size: 40px;
+
+}
+
+h3 {
+  color: #00caf4;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+section {
+  margin: 0 auto 0;
+  text-align: left;
+}
+
+.exp-box {
+  margin: 0 auto 0;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.exp-content {
+  left: -10px;
+  text-align: left;
+  width: 600px;
+}
+
+.exp-content p {
+  margin: 0 0 10px 60px;
+}
+
+.textn {
+  color: silver;
+}
+
+.textb {
+  color: #00caf4;
+  font-size: 20px;
+}
+
+.textc {
+  padding: 5px 10px;
+  background-color: yellow;
+  border-radius: 2px;
+  color: midnightblue;
+}
+
+.leftline {
+  width: 10px;
+  border: solid 5px white;
+  border-radius: 10px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.ballerikayellow {
+  height: 14px;
+  width: 14px;
+  margin: 0 0 0 -2px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.ballerikared {
+  height: 14px;
+  width: 14px;
+  margin: 400px 0 0 -2px;
+  border-radius: 50%;
+  background-color: orange;
+  transition: all 1000ms ease;;
+}
+
+.triangle {
+  width: 30px;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+  border-left: 50px solid aquamarine;
+  z-index: 9;
+  position: absolute;
+  margin: -16px 0 0 -30px;
+}
+

@@ -1,0 +1,10 @@
+.linkinconbox {
+  margin: 50px;
+  display: flex;
+  left: 500px;
+  flex-direction: row;
+}
+.p {
+  font-size: 30px;
+  font-weight: bold;
+}

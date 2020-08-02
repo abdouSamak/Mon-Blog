@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myBlog';
+  mail2 = "abdou.samake0908@gmail.com";
+  route = true;
+  constructor(private router: Router) {}
+
+  jumptop(): void {
+    this.router.navigate(['/accueil']);
+    this.route = true;
+  }
+
 }

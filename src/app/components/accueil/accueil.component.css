@@ -1,0 +1,46 @@
+
+  .home-box {
+    margin: 50px auto 50px;
+    width: 720px;
+    height: 100%;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  h3 {
+    margin: 20px 0;
+    font-size: 50px;
+  }
+
+  h4 {
+    margin: 40px 0 10px 0;
+    font-size: 28px;
+    color: #00caf4;
+  }
+
+  .texto {
+    font-size: 20px;
+  }
+
+  .home-box p {
+    margin-left: 20px;
+    line-height: 30px;
+  }
+
+  .home-box span {
+    color: #00caf4;
+  }
+
+  .portrait {
+    margin: 0 auto 30px;
+    height: 250px;
+    width: 250px;
+    top:100px;
+    left: 50px;
+    position: relative;
+    background-image: url("../../../assets/abdouImage.JPG");
+    border-radius: 30%;
+    background-size: cover;
+  }
+
+
